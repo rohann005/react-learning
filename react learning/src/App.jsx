@@ -1,11 +1,20 @@
-import card from "../components/card" 
-const App = () => {
+import PlaceCard from "./components/card";
+
+function App() {
   return (
     <>
-    < card />
+      <PlaceCard />
+      <PlaceCard />
+      <PlaceCard />
+      <PlaceCard />
+      <PlaceCard />
+      
+
+         
 
     </>
-  )
+    
+  );
 }
 
-export default App
+export default App;
